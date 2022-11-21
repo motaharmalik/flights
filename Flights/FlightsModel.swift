@@ -7,7 +7,7 @@
 
 import Foundation
 
-struct Flight {
+struct Flight: Decodable {
     var airport: String
     var destination: String
     var nameOfFlight: String
@@ -16,6 +16,17 @@ struct Flight {
     var startTime: String
     var reachTime: String
     var timeTaken: String
-    
 }
 
+var flightsData: [Flight] = [
+    Flight(airport: "Manchester", destination: "rr", nameOfFlight: "abc", airlineName: "xyz", price: "4", startTime: "45", reachTime: "3", timeTaken: "2"),
+    Flight(airport: "Manchester", destination: "rr", nameOfFlight: "abc", airlineName: "xyz", price: "4", startTime: "45", reachTime: "3", timeTaken: "2"),
+    Flight(airport: "Manchester", destination: "rr", nameOfFlight: "abc", airlineName: "xyz", price: "4", startTime: "45", reachTime: "3", timeTaken: "2"),
+    Flight(airport: "Manchester", destination: "rr", nameOfFlight: "abc", airlineName: "xyz", price: "4", startTime: "45", reachTime: "3", timeTaken: "2"),
+    Flight(airport: "Manchester", destination: "rr", nameOfFlight: "abc", airlineName: "xyz", price: "4", startTime: "45", reachTime: "3", timeTaken: "2"),
+    Flight(airport: "Manchester", destination: "rr", nameOfFlight: "abc", airlineName: "xyz", price: "4", startTime: "45", reachTime: "3", timeTaken: "2"),
+    Flight(airport: "Manchester", destination: "rr", nameOfFlight: "abc", airlineName: "xyz", price: "4", startTime: "45", reachTime: "3", timeTaken: "2"),
+    Flight(airport: "Manchester", destination: "rr", nameOfFlight: "abc", airlineName: "xyz", price: "4", startTime: "45", reachTime: "3", timeTaken: "2"),
+    Flight(airport: "Manchester", destination: "rr", nameOfFlight: "abc", airlineName: "xyz", price: "4", startTime: "45", reachTime: "3", timeTaken: "2"),
+    Flight(airport: "Manchester", destination: "rr", nameOfFlight: "abc", airlineName: "xyz", price: "4", startTime: "45", reachTime: "3", timeTaken: "2")
+]

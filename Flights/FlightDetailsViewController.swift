@@ -9,7 +9,13 @@ import UIKit
 
 class FlightDetailsViewController: UIViewController {
 
+    @IBOutlet weak var name: UILabel!
+    
+    var fName = ""
+    
     override func viewDidLoad() {
         super.viewDidLoad()
+        self.view.backgroundColor = .blue
+        self.name.text = fName
     }
 }
