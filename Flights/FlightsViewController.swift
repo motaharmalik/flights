@@ -7,10 +7,12 @@
 
 import UIKit
 
+
 class FlightsViewController: UIViewController {
     
     var flights = [Flight]()
     
+    @IBOutlet weak var filter: UITextField!
     @IBOutlet weak var tableView: UITableView!
     
     override func viewDidLoad() {
@@ -21,25 +23,35 @@ class FlightsViewController: UIViewController {
         parseLocalJsonData()
     }
     
-func parseLocalJsonData() {
-    guard let url = Bundle.main.url(forResource:"flights", withExtension: ".json") else { return }
-    guard let data = try? Data(contentsOf:url ) else { return }
-                
-    let jsonDecoder = JSONDecoder()
+    @IBAction func searchTapped(_ sender: Any) {
+        if filter.text!.isEmpty {
+            self.tableView.reloadData()
+            parseLocalJsonData()
+            return
+        }
+        let filtered = self.flights.filter { $0.airport == filter.text || $0.price == filter.text }
+        self.flights = filtered
+        self.tableView.reloadData()
+    }
     
-    do {
-        let flights = try jsonDecoder.decode([Flight].self, from: data)
-        self.flights = flights
-    }
-    catch{
-        print(error)
-    }
+    func parseLocalJsonData() {
+        guard let url = Bundle.main.url(forResource:"flights", withExtension: ".json") else { return }
+        guard let data = try? Data(contentsOf:url ) else { return }
+                    
+        let jsonDecoder = JSONDecoder()
+        
+        do {
+            let flights = try jsonDecoder.decode([Flight].self, from: data)
+            self.flights = flights
+        }
+        catch{
+            print(error)
+        }
   }
 }
 extension FlightsViewController: UITableViewDataSource {
     func tableView(_ tableView: UITableView, numberOfRowsInSection section: Int) -> Int {
         return self.flights.count
-        
     }
     
     func tableView(_ tableView: UITableView, cellForRowAt indexPath: IndexPath) -> UITableViewCell {
