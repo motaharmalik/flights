@@ -17,16 +17,3 @@ struct Flight: Decodable {
     var reachTime: String
     var timeTaken: String
 }
-
-var flightsData: [Flight] = [
-    Flight(airport: "Manchester", destination: "rr", nameOfFlight: "abc", airlineName: "xyz", price: "4", startTime: "45", reachTime: "3", timeTaken: "2"),
-    Flight(airport: "Manchester", destination: "rr", nameOfFlight: "abc", airlineName: "xyz", price: "4", startTime: "45", reachTime: "3", timeTaken: "2"),
-    Flight(airport: "Manchester", destination: "rr", nameOfFlight: "abc", airlineName: "xyz", price: "4", startTime: "45", reachTime: "3", timeTaken: "2"),
-    Flight(airport: "Manchester", destination: "rr", nameOfFlight: "abc", airlineName: "xyz", price: "4", startTime: "45", reachTime: "3", timeTaken: "2"),
-    Flight(airport: "Manchester", destination: "rr", nameOfFlight: "abc", airlineName: "xyz", price: "4", startTime: "45", reachTime: "3", timeTaken: "2"),
-    Flight(airport: "Manchester", destination: "rr", nameOfFlight: "abc", airlineName: "xyz", price: "4", startTime: "45", reachTime: "3", timeTaken: "2"),
-    Flight(airport: "Manchester", destination: "rr", nameOfFlight: "abc", airlineName: "xyz", price: "4", startTime: "45", reachTime: "3", timeTaken: "2"),
-    Flight(airport: "Manchester", destination: "rr", nameOfFlight: "abc", airlineName: "xyz", price: "4", startTime: "45", reachTime: "3", timeTaken: "2"),
-    Flight(airport: "Manchester", destination: "rr", nameOfFlight: "abc", airlineName: "xyz", price: "4", startTime: "45", reachTime: "3", timeTaken: "2"),
-    Flight(airport: "Manchester", destination: "rr", nameOfFlight: "abc", airlineName: "xyz", price: "4", startTime: "45", reachTime: "3", timeTaken: "2")
-]

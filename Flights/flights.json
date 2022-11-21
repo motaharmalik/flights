@@ -1,105 +1,106 @@
 [
  {
-    airport: "London Heathrow",
-    destination: "Mavdives",
-    nameOfFlight: "Jet airlines",
-    airlineName: "204057",
-    price: "£480",
-    startTime: "07:30am",
-    reachTime: "10pm",
-    timeTaken: "14h"
+    "airport": "London Heathrow",
+    "destination": "Mavdives",
+    "nameOfFlight": "Jet airlines",
+    "airlineName": "204057",
+    "price": "£480",
+    "startTime": "07:30am",
+    "reachTime": "10pm",
+    "timeTaken": "14h"
    
  },
  {
-    airport: "Birmingham",
-    destination: "Turkey",
-    nameOfFlight: "Ryanair",
-    airlineName: "647389",
-    price: "£180",
-    startTime: "9am",
-    reachTime: "12pm",
-    timeTaken: "3h"
+    "airport": "Birmingham",
+    "destination": "Turkey",
+    "nameOfFlight": "Ryanair",
+    "airlineName": "647389",
+    "price": "£180",
+    "startTime": "9am",
+    "reachTime": "12pm",
+    "timeTaken": "3h"
    
  },
  {
-    airport: "London Luton",
-    destination: "Barcelina, Spain",
-    nameOfFlight: "Wizzair",
-    airlineName: "6478392",
-    price: "£120",
-    startTime: "8pm",
-    reachTime: "3:15",
-    timeTaken: "1:15"
+    "airport": "London Luton",
+    "destination": "Barcelina, Spain",
+    "nameOfFlight": "Wizzair",
+    "airlineName": "6478392",
+    "price": "£120",
+    "startTime": "8pm",
+    "reachTime": "3:15",
+    "timeTaken": "1:15"
  },
  {
-    airport: "London Luton",
-    destination: "Barcelina, Spain",
-    nameOfFlight: "Wizzair",
-    airlineName: "6478392",
-    price: "£300",
-    startTime: "7pm",
-    reachTime: "3:15",
-    timeTaken: "1:15"
+    "airport": "London Luton",
+    "destination": "Barcelina, Spain",
+    "nameOfFlight": "Wizzair",
+    "airlineName": "6478392",
+    "price": "£300",
+    "startTime": "7pm",
+    "reachTime": "3:15",
+    "timeTaken": "1:15"
  },
  {
-    airport: "London Luton",
-    destination: "Barcelina, Spain",
-    nameOfFlight: "Wizzair",
-    airlineName: "6478392",
-    price: "£450",
-    startTime: "6pm",
-    reachTime: "3:15",
-    timeTaken: "1:15"
+    "airport": "London Luton",
+    "destination": "Barcelina, Spain",
+    "nameOfFlight": "Wizzair",
+    "airlineName": "6478392",
+    "price": "£450",
+    "startTime": "6pm",
+    "reachTime": "3:15",
+    "timeTaken": "1:15"
  },
  {
-    airport: "London Luton",
-    destination: "Barcelina, Spain",
-    nameOfFlight: "Wizzair",
-    airlineName: "6478392",
-    price: "£345",
-    startTime: "5pm",
-    reachTime: "3:15",
-    timeTaken: "1:15"
+    "airport": "London Luton",
+    "destination": "Barcelina, Spain",
+    "nameOfFlight": "Wizzair",
+    "airlineName": "6478392",
+    "price": "£345",
+    "startTime": "5pm",
+    "reachTime": "3:15",
+    "timeTaken": "1:15"
  },
  {
-    airport: "London Luton",
-    destination: "Barcelina, Spain",
-    nameOfFlight: "Wizzair",
-    airlineName: "6478392",
-    price: "£585",
-    startTime: "4pm",
-    reachTime: "3:15",
-    timeTaken: "1:15"
+    "airport": "London Luton",
+    "destination": "Barcelina, Spain",
+    "nameOfFlight": "Wizzair",
+    "airlineName": "6478392",
+    "price": "£585",
+    "startTime": "4pm",
+    "reachTime": "3:15",
+    "timeTaken": "1:15"
  },
  {
-    airport: "London Luton",
-    destination: "Barcelina, Spain",
-    nameOfFlight: "Wizzair",
-    airlineName: "6478392",
-    price: "£234",
-    startTime: "3pm",
-    reachTime: "3:15",
-    timeTaken: "1:15"
+    "airport": "London Luton",
+    "destination": "Barcelina, Spain",
+    "nameOfFlight": "Wizzair",
+    "airlineName": "6478392",
+    "price": "£234",
+    "startTime": "3pm",
+    "reachTime": "3:15",
+    "timeTaken": "1:15"
  },
  {
-    airport: "London Luton",
-    destination: "Barcelina, Spain",
-    nameOfFlight: "Wizzair",
-    airlineName: "6478392",
-    price: "£896",
-    startTime: "2pm",
-    reachTime: "3:15",
-    timeTaken: "1:15"
+    "airport": "London Luton",
+    "destination": "Barcelina, Spain",
+    "nameOfFlight": "Wizzair",
+    "airlineName": "6478392",
+    "price": "£896",
+    "startTime": "2pm",
+    "reachTime": "3:15",
+    "timeTaken": "1:15"
  },
  {
-    airport: "London Luton",
-    destination: "Barcelina, Spain",
-    nameOfFlight: "Wizzair",
-    airlineName: "6478392",
-    price: "£534",
-    startTime: "1pm",
-    reachTime: "3:15",
-    timeTaken: "1:15"
+    "airport": "London Luton",
+    "destination": "Barcelina, Spain",
+    "nameOfFlight": "Wizzair",
+    "airlineName": "6478392",
+    "price": "£534",
+    "startTime": "1pm",
+    "reachTime": "3:15",
+    "timeTaken": "1:15"
  }
  
 ]
+

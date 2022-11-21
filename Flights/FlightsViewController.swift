@@ -8,21 +8,42 @@
 import UIKit
 
 class FlightsViewController: UIViewController {
-
+    
+    var flights = [Flight]()
+    
     @IBOutlet weak var tableView: UITableView!
+    
     override func viewDidLoad() {
         super.viewDidLoad()
+        
         tableView.dataSource = self
         tableView.delegate = self
+        parseLocalJsonData()
     }
+    
+func parseLocalJsonData() {
+    guard let url = Bundle.main.url(forResource:"flights", withExtension: ".json") else { return }
+    guard let data = try? Data(contentsOf:url ) else { return }
+                
+    let jsonDecoder = JSONDecoder()
+    
+    do {
+        let flights = try jsonDecoder.decode([Flight].self, from: data)
+        self.flights = flights
+    }
+    catch{
+        print(error)
+    }
+  }
 }
 extension FlightsViewController: UITableViewDataSource {
     func tableView(_ tableView: UITableView, numberOfRowsInSection section: Int) -> Int {
-        return flightsData.count
+        return self.flights.count
+        
     }
     
     func tableView(_ tableView: UITableView, cellForRowAt indexPath: IndexPath) -> UITableViewCell {
-        let flight = flightsData[indexPath.row]
+        let flight = flights[indexPath.row]
         let cell = tableView.dequeueReusableCell(withIdentifier: "cell") as? FlightsTableViewCell
         cell?.airlineName.text = flight.airlineName
         cell?.airport.text = flight.airport
@@ -37,10 +58,12 @@ extension FlightsViewController: UITableViewDataSource {
 }
 extension FlightsViewController: UITableViewDelegate {
     func tableView(_ tableView: UITableView, didSelectRowAt indexPath: IndexPath) {
-        let flight = flightsData[indexPath.row]
+        let flight = flights[indexPath.row]
         let sb = UIStoryboard(name: "Main", bundle: nil)
         let vc = sb.instantiateViewController(withIdentifier: "FlightDetailsViewController") as? FlightDetailsViewController
         vc?.fName = flight.airlineName
         self.navigationController?.pushViewController(vc!, animated: true)
     }
 }
+
+
