@@ -10,6 +10,7 @@
 		074B7D7B292B81B200846A3A /* FlightsViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 074B7D7A292B81B200846A3A /* FlightsViewController.swift */; };
 		074B7D7D292B831600846A3A /* FlightDetailsViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 074B7D7C292B831600846A3A /* FlightDetailsViewController.swift */; };
 		074B7D7F292B83DC00846A3A /* FlightsTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 074B7D7E292B83DC00846A3A /* FlightsTableViewCell.swift */; };
+		074B7D83292BE48400846A3A /* FlightsViewModelTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 074B7D82292BE48400846A3A /* FlightsViewModelTests.swift */; };
 		308CB181292B7BCF0043DC03 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 308CB180292B7BCF0043DC03 /* AppDelegate.swift */; };
 		308CB183292B7BCF0043DC03 /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 308CB182292B7BCF0043DC03 /* SceneDelegate.swift */; };
 		308CB188292B7BCF0043DC03 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 308CB186292B7BCF0043DC03 /* Main.storyboard */; };
@@ -44,6 +45,7 @@
 		074B7D7A292B81B200846A3A /* FlightsViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FlightsViewController.swift; sourceTree = "<group>"; };
 		074B7D7C292B831600846A3A /* FlightDetailsViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FlightDetailsViewController.swift; sourceTree = "<group>"; };
 		074B7D7E292B83DC00846A3A /* FlightsTableViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FlightsTableViewCell.swift; sourceTree = "<group>"; };
+		074B7D82292BE48400846A3A /* FlightsViewModelTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FlightsViewModelTests.swift; sourceTree = "<group>"; };
 		308CB17D292B7BCF0043DC03 /* Flights.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Flights.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		308CB180292B7BCF0043DC03 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		308CB182292B7BCF0043DC03 /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
@@ -113,6 +115,7 @@
 				308CB182292B7BCF0043DC03 /* SceneDelegate.swift */,
 				9157BB2B292B8A580026838B /* FlightsModel.swift */,
 				074B7D7A292B81B200846A3A /* FlightsViewController.swift */,
+				9157BB2D292BD29B0026838B /* FlightsViewModel.swift */,
 				074B7D7C292B831600846A3A /* FlightDetailsViewController.swift */,
 				074B7D7E292B83DC00846A3A /* FlightsTableViewCell.swift */,
 				308CB1B0292B7C2D0043DC03 /* flights.json */,
@@ -120,7 +123,6 @@
 				308CB189292B7BD10043DC03 /* Assets.xcassets */,
 				308CB18B292B7BD10043DC03 /* LaunchScreen.storyboard */,
 				308CB18E292B7BD10043DC03 /* Info.plist */,
-				9157BB2D292BD29B0026838B /* FlightsViewModel.swift */,
 			);
 			path = Flights;
 			sourceTree = "<group>";
@@ -129,6 +131,7 @@
 			isa = PBXGroup;
 			children = (
 				308CB197292B7BD10043DC03 /* FlightsTests.swift */,
+				074B7D82292BE48400846A3A /* FlightsViewModelTests.swift */,
 			);
 			path = FlightsTests;
 			sourceTree = "<group>";
@@ -288,6 +291,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				074B7D83292BE48400846A3A /* FlightsViewModelTests.swift in Sources */,
 				308CB198292B7BD10043DC03 /* FlightsTests.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
