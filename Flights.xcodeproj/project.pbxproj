@@ -19,6 +19,7 @@
 		308CB1A2292B7BD10043DC03 /* FlightsUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 308CB1A1292B7BD10043DC03 /* FlightsUITests.swift */; };
 		308CB1A4292B7BD10043DC03 /* FlightsUITestsLaunchTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 308CB1A3292B7BD10043DC03 /* FlightsUITestsLaunchTests.swift */; };
 		308CB1B1292B7C2D0043DC03 /* flights.json in Resources */ = {isa = PBXBuildFile; fileRef = 308CB1B0292B7C2D0043DC03 /* flights.json */; };
+		9157BB2C292B8A580026838B /* FlightsModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9157BB2B292B8A580026838B /* FlightsModel.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -55,6 +56,7 @@
 		308CB1A1292B7BD10043DC03 /* FlightsUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FlightsUITests.swift; sourceTree = "<group>"; };
 		308CB1A3292B7BD10043DC03 /* FlightsUITestsLaunchTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FlightsUITestsLaunchTests.swift; sourceTree = "<group>"; };
 		308CB1B0292B7C2D0043DC03 /* flights.json */ = {isa = PBXFileReference; lastKnownFileType = text.json; path = flights.json; sourceTree = "<group>"; };
+		9157BB2B292B8A580026838B /* FlightsModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FlightsModel.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -107,6 +109,7 @@
 			children = (
 				308CB180292B7BCF0043DC03 /* AppDelegate.swift */,
 				308CB182292B7BCF0043DC03 /* SceneDelegate.swift */,
+				9157BB2B292B8A580026838B /* FlightsModel.swift */,
 				074B7D7A292B81B200846A3A /* FlightsViewController.swift */,
 				074B7D7C292B831600846A3A /* FlightDetailsViewController.swift */,
 				074B7D7E292B83DC00846A3A /* FlightsTableViewCell.swift */,
@@ -269,6 +272,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				074B7D7B292B81B200846A3A /* FlightsViewController.swift in Sources */,
+				9157BB2C292B8A580026838B /* FlightsModel.swift in Sources */,
 				074B7D7D292B831600846A3A /* FlightDetailsViewController.swift in Sources */,
 				308CB181292B7BCF0043DC03 /* AppDelegate.swift in Sources */,
 				074B7D7F292B83DC00846A3A /* FlightsTableViewCell.swift in Sources */,
