@@ -20,6 +20,7 @@
 		308CB1A4292B7BD10043DC03 /* FlightsUITestsLaunchTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 308CB1A3292B7BD10043DC03 /* FlightsUITestsLaunchTests.swift */; };
 		308CB1B1292B7C2D0043DC03 /* flights.json in Resources */ = {isa = PBXBuildFile; fileRef = 308CB1B0292B7C2D0043DC03 /* flights.json */; };
 		9157BB2C292B8A580026838B /* FlightsModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9157BB2B292B8A580026838B /* FlightsModel.swift */; };
+		9157BB2E292BD29B0026838B /* FlightsViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9157BB2D292BD29B0026838B /* FlightsViewModel.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -57,6 +58,7 @@
 		308CB1A3292B7BD10043DC03 /* FlightsUITestsLaunchTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FlightsUITestsLaunchTests.swift; sourceTree = "<group>"; };
 		308CB1B0292B7C2D0043DC03 /* flights.json */ = {isa = PBXFileReference; lastKnownFileType = text.json; path = flights.json; sourceTree = "<group>"; };
 		9157BB2B292B8A580026838B /* FlightsModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FlightsModel.swift; sourceTree = "<group>"; };
+		9157BB2D292BD29B0026838B /* FlightsViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FlightsViewModel.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -118,6 +120,7 @@
 				308CB189292B7BD10043DC03 /* Assets.xcassets */,
 				308CB18B292B7BD10043DC03 /* LaunchScreen.storyboard */,
 				308CB18E292B7BD10043DC03 /* Info.plist */,
+				9157BB2D292BD29B0026838B /* FlightsViewModel.swift */,
 			);
 			path = Flights;
 			sourceTree = "<group>";
@@ -276,6 +279,7 @@
 				074B7D7D292B831600846A3A /* FlightDetailsViewController.swift in Sources */,
 				308CB181292B7BCF0043DC03 /* AppDelegate.swift in Sources */,
 				074B7D7F292B83DC00846A3A /* FlightsTableViewCell.swift in Sources */,
+				9157BB2E292BD29B0026838B /* FlightsViewModel.swift in Sources */,
 				308CB183292B7BCF0043DC03 /* SceneDelegate.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
