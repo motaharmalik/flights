@@ -1,10 +1,4 @@
 //
-//  FlightsViewController.swift
-//  Flights
-//
-//  Created by Seymour Rodrigues on 21/11/2022.
-//
-
 import UIKit
 
 
@@ -48,6 +42,7 @@ extension FlightsViewController: UITableViewDataSource {
         cell?.startTime.text = flight?.startTime
         cell?.reachTime.text = flight?.reachTime
         cell?.timeTaken.text = flight?.timeTaken
+        cell?.flightImage.display(url: URL(string: flight!.logo)!)
         return cell!
     }
 }
@@ -60,5 +55,16 @@ extension FlightsViewController: UITableViewDelegate {
         self.navigationController?.pushViewController(vc!, animated: true)
     }
 }
-
+extension UIImageView {
+    func display(url: URL) {
+        DispatchQueue.global().async { [weak self] in
+            if let data = try? Data(contentsOf: url) {
+                if let image = UIImage(data: data) {
+                    DispatchQueue.main.async {
+                        self?.image = image  }
+                }
+            }
+        }
+    }
+}
 
