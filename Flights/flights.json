@@ -2,23 +2,47 @@
  {
     "airport": "London Heathrow",
     "destination": "Mavdives",
-    "nameOfFlight": "Jet airlines",
+    "nameOfFlight": "Jet Airways",
     "airlineName": "204057",
     "price": "£480",
     "startTime": "07:30am",
     "reachTime": "10pm",
-    "timeTaken": "14h"
+    "timeTaken": "14h",
+    "logo": "https://res.cloudinary.com/crunchbase-production/image/upload/c_lpad,h_256,w_256,f_auto,q_auto:eco,dpr_1/v1445341119/qc45xhztpeem1z6hudrp.png"
    
+ },
+ {
+    "airport": "London Luton",
+    "destination": "Paris",
+    "nameOfFlight": "Wizzair",
+    "airlineName": "6478302",
+    "price": "£150",
+    "startTime": "10pm",
+    "reachTime": "11:15pm",
+    "timeTaken": "1:15h",
+    "logo": "https://www.freevector.com/uploads/vector/preview/18072/FreeVector-Wizz-Air.jpg"
+ },
+ {
+    "airport": "London Luton",
+    "destination": "Ibiza, Spain",
+    "nameOfFlight": "Ryanair",
+    "airlineName": "9478392",
+    "price": "£120",
+    "startTime": "4pm",
+    "reachTime": "6:15pm",
+    "timeTaken": "2:15h",
+    "logo": "https://logolook.net/wp-content/uploads/2021/01/Ryanair-Logo-1987.png"
  },
  {
     "airport": "Birmingham",
     "destination": "Turkey",
-    "nameOfFlight": "Ryanair",
+    "nameOfFlight": "Jet Airways",
     "airlineName": "647389",
     "price": "£180",
     "startTime": "9am",
     "reachTime": "12pm",
-    "timeTaken": "3h"
+    "timeTaken": "3h",
+    "logo": "https://res.cloudinary.com/crunchbase-production/image/upload/c_lpad,h_256,w_256,f_auto,q_auto:eco,dpr_1/v1445341119/qc45xhztpeem1z6hudrp.png"
    
  },
  {
@@ -28,78 +52,64 @@
     "airlineName": "6478392",
     "price": "£120",
     "startTime": "8pm",
-    "reachTime": "3:15",
-    "timeTaken": "1:15"
+    "reachTime": "3:15pm",
+    "timeTaken": "1:15h",
+    "logo": "https://www.freevector.com/uploads/vector/preview/18072/FreeVector-Wizz-Air.jpg"
  },
  {
     "airport": "London Luton",
-    "destination": "Barcelina, Spain",
+    "destination": "Alicante, Spain",
     "nameOfFlight": "Wizzair",
-    "airlineName": "6478392",
-    "price": "£300",
-    "startTime": "7pm",
-    "reachTime": "3:15",
-    "timeTaken": "1:15"
- },
- {
-    "airport": "London Luton",
-    "destination": "Barcelina, Spain",
-    "nameOfFlight": "Wizzair",
-    "airlineName": "6478392",
-    "price": "£450",
-    "startTime": "6pm",
-    "reachTime": "3:15",
-    "timeTaken": "1:15"
- },
- {
-    "airport": "London Luton",
-    "destination": "Barcelina, Spain",
-    "nameOfFlight": "Wizzair",
-    "airlineName": "6478392",
-    "price": "£345",
+    "airlineName": "1458392",
+    "price": "£45",
     "startTime": "5pm",
-    "reachTime": "3:15",
-    "timeTaken": "1:15"
+    "reachTime": "3:15pm",
+    "timeTaken": "2:15h",
+    "logo": "https://www.freevector.com/uploads/vector/preview/18072/FreeVector-Wizz-Air.jpg"
  },
  {
-    "airport": "London Luton",
+    "airport": "Birmingham",
     "destination": "Barcelina, Spain",
     "nameOfFlight": "Wizzair",
     "airlineName": "6478392",
     "price": "£585",
     "startTime": "4pm",
     "reachTime": "3:15",
-    "timeTaken": "1:15"
+    "timeTaken": "1:15",
+    "logo": "https://www.freevector.com/uploads/vector/preview/18072/FreeVector-Wizz-Air.jpg"
  },
  {
     "airport": "London Luton",
-    "destination": "Barcelina, Spain",
-    "nameOfFlight": "Wizzair",
-    "airlineName": "6478392",
-    "price": "£234",
-    "startTime": "3pm",
-    "reachTime": "3:15",
-    "timeTaken": "1:15"
+    "destination": "Punta Cana, Mexico",
+    "nameOfFlight": "Ryanair",
+    "airlineName": "2068392",
+    "price": "£734",
+    "startTime": "5pm",
+    "reachTime": "11:15pm",
+    "timeTaken": "6:15h",
+    "logo": "https://logolook.net/wp-content/uploads/2021/01/Ryanair-Logo-1987.png"
  },
  {
-    "airport": "London Luton",
-    "destination": "Barcelina, Spain",
-    "nameOfFlight": "Wizzair",
-    "airlineName": "6478392",
+    "airport": "London Heathrow",
+    "destination": "Pucket, Thailand",
+    "nameOfFlight": "Ryanair",
+    "airlineName": "2378392",
     "price": "£896",
     "startTime": "2pm",
-    "reachTime": "3:15",
-    "timeTaken": "1:15"
+    "reachTime": "3:15am",
+    "timeTaken": "12:15h",
+    "logo": "https://logolook.net/wp-content/uploads/2021/01/Ryanair-Logo-1987.png"
  },
  {
-    "airport": "London Luton",
-    "destination": "Barcelina, Spain",
+    "airport": "Birmingham",
+    "destination": "Lapland, Iceland",
     "nameOfFlight": "Wizzair",
-    "airlineName": "6478392",
-    "price": "£534",
+    "airlineName": "56788392",
+    "price": "£480",
     "startTime": "1pm",
-    "reachTime": "3:15",
-    "timeTaken": "1:15"
+    "reachTime": "5:15pm",
+    "timeTaken": "4:15h",
+    "logo": "https://www.freevector.com/uploads/vector/preview/18072/FreeVector-Wizz-Air.jpg"
  }
  
 ]

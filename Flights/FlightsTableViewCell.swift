@@ -8,6 +8,7 @@
 import UIKit
 
 class FlightsTableViewCell: UITableViewCell {
+    @IBOutlet weak var flightImage: UIImageView!
     @IBOutlet weak var airport: UILabel!
     @IBOutlet weak var timeTaken: UILabel!
     @IBOutlet weak var reachTime: UILabel!

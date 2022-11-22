@@ -11,9 +11,9 @@
 		074B7D7D292B831600846A3A /* FlightDetailsViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 074B7D7C292B831600846A3A /* FlightDetailsViewController.swift */; };
 		074B7D7F292B83DC00846A3A /* FlightsTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 074B7D7E292B83DC00846A3A /* FlightsTableViewCell.swift */; };
 		074B7D83292BE48400846A3A /* FlightsViewModelTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 074B7D82292BE48400846A3A /* FlightsViewModelTests.swift */; };
+		07B5D37B292CCAD7004D87E1 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 07B5D379292CCAD7004D87E1 /* Main.storyboard */; };
 		308CB181292B7BCF0043DC03 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 308CB180292B7BCF0043DC03 /* AppDelegate.swift */; };
 		308CB183292B7BCF0043DC03 /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 308CB182292B7BCF0043DC03 /* SceneDelegate.swift */; };
-		308CB188292B7BCF0043DC03 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 308CB186292B7BCF0043DC03 /* Main.storyboard */; };
 		308CB18A292B7BD10043DC03 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 308CB189292B7BD10043DC03 /* Assets.xcassets */; };
 		308CB18D292B7BD10043DC03 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 308CB18B292B7BD10043DC03 /* LaunchScreen.storyboard */; };
 		308CB198292B7BD10043DC03 /* FlightsTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 308CB197292B7BD10043DC03 /* FlightsTests.swift */; };
@@ -46,10 +46,10 @@
 		074B7D7C292B831600846A3A /* FlightDetailsViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FlightDetailsViewController.swift; sourceTree = "<group>"; };
 		074B7D7E292B83DC00846A3A /* FlightsTableViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FlightsTableViewCell.swift; sourceTree = "<group>"; };
 		074B7D82292BE48400846A3A /* FlightsViewModelTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FlightsViewModelTests.swift; sourceTree = "<group>"; };
+		07B5D37A292CCAD7004D87E1 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = "../../../../Downloads/flights-main-2/Flights/Base.lproj/Main.storyboard"; sourceTree = "<group>"; };
 		308CB17D292B7BCF0043DC03 /* Flights.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Flights.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		308CB180292B7BCF0043DC03 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		308CB182292B7BCF0043DC03 /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
-		308CB187292B7BCF0043DC03 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		308CB189292B7BD10043DC03 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		308CB18C292B7BD10043DC03 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		308CB18E292B7BD10043DC03 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
@@ -118,8 +118,8 @@
 				9157BB2D292BD29B0026838B /* FlightsViewModel.swift */,
 				074B7D7C292B831600846A3A /* FlightDetailsViewController.swift */,
 				074B7D7E292B83DC00846A3A /* FlightsTableViewCell.swift */,
+				07B5D379292CCAD7004D87E1 /* Main.storyboard */,
 				308CB1B0292B7C2D0043DC03 /* flights.json */,
-				308CB186292B7BCF0043DC03 /* Main.storyboard */,
 				308CB189292B7BD10043DC03 /* Assets.xcassets */,
 				308CB18B292B7BD10043DC03 /* LaunchScreen.storyboard */,
 				308CB18E292B7BD10043DC03 /* Info.plist */,
@@ -252,7 +252,7 @@
 				308CB18D292B7BD10043DC03 /* LaunchScreen.storyboard in Resources */,
 				308CB1B1292B7C2D0043DC03 /* flights.json in Resources */,
 				308CB18A292B7BD10043DC03 /* Assets.xcassets in Resources */,
-				308CB188292B7BCF0043DC03 /* Main.storyboard in Resources */,
+				07B5D37B292CCAD7004D87E1 /* Main.storyboard in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -321,10 +321,10 @@
 /* End PBXTargetDependency section */
 
 /* Begin PBXVariantGroup section */
-		308CB186292B7BCF0043DC03 /* Main.storyboard */ = {
+		07B5D379292CCAD7004D87E1 /* Main.storyboard */ = {
 			isa = PBXVariantGroup;
 			children = (
-				308CB187292B7BCF0043DC03 /* Base */,
+				07B5D37A292CCAD7004D87E1 /* Base */,
 			);
 			name = Main.storyboard;
 			sourceTree = "<group>";

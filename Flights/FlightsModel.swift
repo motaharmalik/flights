@@ -16,4 +16,5 @@ struct Flight: Decodable {
     var startTime: String
     var reachTime: String
     var timeTaken: String
+    var logo: String
 }
